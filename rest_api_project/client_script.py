@@ -26,7 +26,7 @@ def get_products():
     else:
         print("Failed to retrieve products:", response.status_code)
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     # Test creating a product
     print("Creating a new product...")
     create_product("Laptop", "A high-performance laptop", 999.99)
